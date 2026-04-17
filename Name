@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yugansh Bhaskar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Yugansh</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Hi, I'm Yugansh Bhaskar</h1>
+    <h2><span class="typing"></span></h2>
+    <p>Electronics & Communication Engineer | Developer | Innovator</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am an Electronics and Communication Engineering student with strong expertise in 
+        microcontrollers, cloud computing, and AI. I enjoy building innovative solutions 
+        and creating impactful user experiences.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div><i class="fas fa-microchip"></i> Embedded Systems</div>
+        <div><i class="fab fa-python"></i> Python</div>
+        <div><i class="fas fa-code"></i> C / C++</div>
+        <div><i class="fas fa-cloud"></i> Cloud (AWS, GCP, Azure)</div>
+        <div><i class="fas fa-brain"></i> AI / ML</div>
+        <div><i class="fab fa-git-alt"></i> Git & GitHub</div>
+        <div><i class="fas fa-chart-bar"></i> Tableau / Power BI</div>
+        <div><i class="fas fa-paint-brush"></i> UI/UX (Figma)</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+        <h3>Smart IoT System</h3>
+        <p>Built using Arduino & Raspberry Pi for automation.</p>
+    </div>
+    <div class="project-card">
+        <h3>AI Prediction Model</h3>
+        <p>Machine learning model for data analysis.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Ygbhaskar3367@gmail.com">Ygbhaskar3367@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Yugansh Bhaskar</p>
+</footer>
+
+<script src="script.js"></script>
